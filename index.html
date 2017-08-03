@@ -1,25 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>EG + GH</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <br><br><br><br><br>
-    <div align="center">
-      <a href="https://elliegrid.com/">
-      <img src="img/elliegrid_logo_120px.png">
-      </a>
-      <h1>+</h1>
-      <a href="https://github.com/EllieGrid">
-      <img src="img/GitHub-Mark-120px-plus.png">
-      </a>
-      <h1>=</h1>
-      <a href="https://github.com/EllieGrid/public-docs">
-      <img src="img/app-pillbox_screenshot.png">
-      </a>
-    </div>
-  </body>
+
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <title>EG + GH</title>
+
+        <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
+        <link rel='icon' href='favicon.ico' type='image/x-icon'>
+        <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet'>
+
+        <style>
+            body {
+                font-family: 'Droid Sans';
+                color: #5F5F5F;
+                text-align: center;
+                margin-top: 50px;
+            }
+            .device-wrapper, .connect-wrapper, .inner-wrapper {
+                width: 100%;
+                display: inline-block;
+                margin: 0 auto;
+                text-align: center;
+                padding-left: 0px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .outer-wrapper { margin: 0 auto; }
+            .inner-wrapper { display: column; margin: 0 auto; width: 30%; }
+            .lone-img { width: 100%; text-align: center; }
+            .device-children, .connect-children { display: inline-block; width: 25%; }
+            .app-li { text-align: left; }
+            .img { width: 80%; max-width: 299px; height: auto; }
+            .linked-img { padding: 20px; padding-top: 18px; padding-bottom: 18px; margin-bottom: -22px; }
+            /*.ellie-img { width: 100%; max-width: 120px; }*/
+            /*.ellie-img-1 { width: 100%; max-width: 191px; }*/
+            .ellie-img-2 { max-width: 300px; }
+            .mid-img { padding-bottom: 20px; }
+            .github-img { max-width: 260px;  }
+            .app-img { max-width: 80px; width: 30%; height: auto; }
+            .bt-img { margin-left: 5%; }
+            .border { border: solid 2px #FFFFFF; border-radius: 10px; }
+            .border:hover { border: solid 2px #F95658; }
+        </style>
+    </head>
+
+    <body>
+        <div class='outer-wrapper'>
+            <div class='inner-wrapper'>
+                <div class='lone-img'>
+                    <a href='https://elliegrid.com/'>
+                        <!-- <img src='img/elliegrid-elephant.png' class='img ellie-img linked-img border'> -->
+                        <!-- <img src='img/elliegrid-business_brown.png' class='img ellie-img-1 linked-img border'> -->
+                        <img src='img/elliegrid-idea_icons+logo.png' class='img ellie-img-2 linked-img border'>
+                    </a>
+                </div>
+
+                <div class='lone-img mid-img'>
+                    <img src='img/arrow.png' class='img mid-img'>
+                </div>
+
+                <div class='lone-img'>
+                    <a href='https://github.com/EllieGrid'>
+                        <img src='img/github_laptop-small.png' class='img github-img linked-img border'>
+                    </a>
+                </div>
+            </div>
+
+            <ul class='connect-wrapper'>
+                <li class='connect-children'>
+                    <img src='img/cable.png' class='img'>
+                </li>
+
+                <li class='connect-children'>
+                    <img src='img/wifi.png' class='img'>
+                </li>
+            </ul>
+
+            <ul class='device-wrapper'>
+                <li class='device-children'>
+                    <a href='https://github.com/EllieGrid/public-docs'>
+                        <img src='img/pillbox.png' class='img linked-img border'>
+                    </a>
+                </li>
+
+                <li class='connect-children'>
+                    <img src='img/bluetooth.png' class='img bt-img'>
+                </li>
+
+                <li class='device-children app-li'>
+                    <a href='https://github.com/EllieGrid/public-docs'>
+                        <img src='img/app.png' class='img app-img linked-img border'>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </body>
 </html>
